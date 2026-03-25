@@ -39,7 +39,7 @@ SQL_Sales_Data
 ##Query 2: Monthly Revenue
 	Tracks revenue over time by month, revealing a sharp decline in May, suggesting further exploration.
 
-[View SQL Query](./sql/customer_lifetime_value.sql)
+[View SQL Query](./sql/revenue_by_month.sql)
 [View Results](./results/revenue_by_month_results.csv)
 
 
