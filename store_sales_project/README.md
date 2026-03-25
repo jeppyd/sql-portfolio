@@ -1,33 +1,29 @@
-###SQL Sales Data Analysis Portfolio
+# SQL Sales Data Analysis Portfolio
 
-
-##Overview
+## Overview
 I analyzed grocery store sales using SQL and PowerBI, identifying trends including monthly sales revenue, top spending customers, and top selling products.
 
+## Project Structure
 
-
-##Project Structure
-
+```text
 SQL_Sales_Data
-├── data/
+├── data
 │   └── [CSV files]
-├── sql/
+├── sql
 │   ├── top_10_products_by_revenue.sql
 │   ├── revenue_by_month.sql
 │   └── customer_lifetime_value.sql
-├── power-bi/
+├── power-bi
 │   └── ecommerce_analysis.pbix
-├── results/
+├── results
 │   ├── top_10_products_revenue_results.csv
 │   ├── revenue_by_month_results.csv
 │   └── customer_lifetime_value_results.csv
 └── README.md
+```
 
 
-
-
-
-##Query 1: Top 10 Products by Total Revenue
+## Query 1: Top 10 Products by Total Revenue
 	Identifies the highest-revenue products.
 
 [View SQL Query](./sql/top_10_products_total_revenue.sql)
@@ -36,7 +32,7 @@ SQL_Sales_Data
 
 
 
-##Query 2: Monthly Revenue
+## Query 2: Monthly Revenue
 	Tracks revenue over time by month, revealing a sharp decline in May, suggesting further exploration.
 
 [View SQL Query](./sql/revenue_by_month.sql)
@@ -45,7 +41,7 @@ SQL_Sales_Data
 
 
 
-##Query 3: Top Spending Customers
+## Query 3: Top Spending Customers
 	Finds the 20 customers with the highest total spending, showing an interesting margin between the 1st and 2nd highest spender.
 
 [View SQL Query](./sql/customer_lifetime_value.sql)
